@@ -8,7 +8,6 @@ body {
 header {
     background-color: rgb(130, 207, 207);
     text-align: center;
-    padding: ;
 }
 .logo {
     font-size: 40px;
@@ -17,7 +16,7 @@ header {
 h1 {
     padding: 5%;
 }
-}
+
 .about {
     grid-area: about;
 }
@@ -50,18 +49,19 @@ div {
 
 @media (min-width: 992px) {
 
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+         "section-1 section-2 section-3";
+    
+    
+    }
+    div {
+        margin: 2%;
+    }
 
 }
-.grid-container {
-    display: grid;
-    grid-template-areas:
-     "section-1 section-2 section-3";
 
-
-}
-div {
-    margin: 2%;
-}
 @media (max-width: 576px) {
 .grid-container {
     display:grid;
