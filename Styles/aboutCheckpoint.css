@@ -2,11 +2,11 @@
 body {
     background-color: rgb(28, 45, 46);
     color: white;
-    margin: 5%;
+    margin: 0%;
 }
 
 header {
-    background-color: rgb(130, 207, 207);
+    background-color: rgb(43,205,192);
     text-align: center;
 }
 .logo {
@@ -15,6 +15,9 @@ header {
 }
 h1 {
     padding: 7%;
+}
+a:visited {
+    color: white;
 }
 
 .home {
@@ -97,13 +100,16 @@ h2 {
         "section-2"
         "section-3";
 }
+body {
+    background-color: rgb(247,245,246);
+}
 
 .logo {
     font-size: 50px;
     text-align: left;
 }
 div {
-    margin: 2%;
+    margin: 20%;
 }
 
 
