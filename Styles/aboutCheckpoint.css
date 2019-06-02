@@ -1,0 +1,128 @@
+
+body {
+    background-color: rgb(28, 45, 46);
+    color: white;
+    margin: 5%;
+}
+
+header {
+    background-color: rgb(130, 207, 207);
+    text-align: center;
+}
+.logo {
+    font-size: 70px;
+    text-align: left;
+}
+h1 {
+    padding: 7%;
+}
+
+.about {
+    grid-area: about;
+}
+.articles {
+    grid-area: articles;
+}
+.facebook {
+    grid-area: facebook;
+}
+.insta {
+    grid-area: insta;
+}
+.section-1 {
+    grid-area: section-1;
+}
+.section-2 {
+    grid-area: section-2;
+}
+.section-3 {
+    grid-area: section-3;
+}
+div {
+    text-align: justify;
+
+}
+.section-1 {
+    background-color: rgb(37, 130, 216);
+}
+
+.section-2 {
+    background-color:rgb(228, 147, 26);
+}
+.section-3 {
+    background-color:rgb(130, 207, 207);
+}
+
+
+
+@media (min-width: 992px) {
+
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+         "section-1 section-2 section-3";  
+    }
+ 
+    div {
+        margin: 6%;
+    }
+    a {
+        padding: 0% 2%;
+        font-size: 30px;
+        text-decoration: none;
+    }
+    nav {
+        text-align: right;
+    }
+h1 {
+    font-size: 80px;
+}
+h2 {
+    font-size:45px;
+}
+
+
+
+}
+
+@media (max-width: 576px) {
+.grid-container {
+    display:grid;
+    grid-template-areas:
+        "about"
+        "articles"
+        "facebook"
+        "insta"
+        "section-1"
+        "section-2"
+        "section-3";
+}
+
+.logo {
+    font-size: 50px;
+    text-align: left;
+}
+div {
+    margin: 2%;
+}
+
+
+.a-class {
+    display: grid;
+    grid-template-areas: 
+    "about"
+    "articles"
+    "facebook"
+    "insta";
+}
+
+h1 {
+    font-size: 70px;
+}
+h2 {
+    font-size:35px;
+}
+
+
+
+}
