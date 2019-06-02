@@ -14,10 +14,14 @@ header {
     text-align: left;
 }
 h1 {
-    padding: 7%;
+    padding: 4%;
+   
 }
 a:visited {
     color: white;
+}
+p {
+    font-family: 'Noto Sans HK', sans-serif;
 }
 
 .home {
