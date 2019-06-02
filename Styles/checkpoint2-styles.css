@@ -10,11 +10,11 @@ header {
     text-align: center;
 }
 .logo {
-    font-size: 40px;
+    font-size: 70px;
     text-align: left;
 }
 h1 {
-    padding: 10%;
+    padding: 7%;
 }
 
 .about {
@@ -42,8 +42,16 @@ div {
     text-align: justify;
 
 }
+.section-1 {
+    background-color: rgb(37, 130, 216);
+}
 
-
+.section-2 {
+    background-color:rgb(228, 147, 26);
+}
+.section-3 {
+    background-color:rgb(130, 207, 207);
+}
 
 
 
@@ -56,20 +64,25 @@ div {
     }
  
     div {
-        margin: 3%;
+        margin: 6%;
     }
     a {
-        padding: 0% 3%;
+        padding: 0% 2%;
         font-size: 30px;
         text-decoration: none;
-    
     }
     nav {
         text-align: right;
     }
 h1 {
-    font-size: 70px;
+    font-size: 80px;
 }
+h2 {
+    font-size:45px;
+}
+
+
+
 }
 
 @media (max-width: 576px) {
@@ -85,6 +98,15 @@ h1 {
         "section-3";
 }
 
+.logo {
+    font-size: 50px;
+    text-align: left;
+}
+div {
+    margin: 2%;
+}
+
+
 .a-class {
     display: grid;
     grid-template-areas: 
@@ -93,5 +115,14 @@ h1 {
     "facebook"
     "insta";
 }
+
+h1 {
+    font-size: 70px;
+}
+h2 {
+    font-size:35px;
+}
+
+
 
 }
