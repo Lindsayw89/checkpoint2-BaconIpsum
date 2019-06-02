@@ -17,8 +17,8 @@ h1 {
     padding: 7%;
 }
 
-.about {
-    grid-area: about;
+.home {
+    grid-area: home;
 }
 .articles {
     grid-area: articles;
@@ -89,7 +89,7 @@ h2 {
 .grid-container {
     display:grid;
     grid-template-areas:
-        "about"
+        "home"
         "articles"
         "facebook"
         "insta"
@@ -110,7 +110,7 @@ div {
 .a-class {
     display: grid;
     grid-template-areas: 
-    "about"
+    "home"
     "articles"
     "facebook"
     "insta";
