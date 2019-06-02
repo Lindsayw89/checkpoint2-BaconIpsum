@@ -39,7 +39,12 @@ img {
     width: 95%;
    
 }
-
+a:visited {
+    color:white;
+}
+a:link {
+    color: white;
+}
 .about {
     grid-area: about;
 }
@@ -91,12 +96,13 @@ footer {
         margin: 8%;
     }
     a {
-        padding: 0% 2%;
+        padding: 0% 1%;
         font-size: 30px;
         text-decoration: none;
     }
     nav {
         text-align: right;
+        Margin-right:5%;
     }
 h1 {
     font-size: 80px;
@@ -139,13 +145,13 @@ div {
 }
 
 
-.a-class {
+/*.a-class {
     display: grid;
     grid-template-areas: 
     "about"
     "facebook"
     "insta";
-}
+}*/
 
 h1 {
     font-size: 70px;
