@@ -17,6 +17,10 @@ header {
 h1 {
     padding: 7%;
 }
+img {
+    height:2%;
+    width: 2%;
+}
 .blue {
     background-color: rgb(51,168,221);
     height:30px;
@@ -124,6 +128,10 @@ body {
 .logo {
     font-size: 50px;
     text-align: left;
+}
+img {
+    height:5%;
+    width: 5%;
 }
 div {
     margin: 2%;
