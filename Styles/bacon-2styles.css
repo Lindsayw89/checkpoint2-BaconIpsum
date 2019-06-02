@@ -2,3 +2,12 @@ body {
     margin:5%;
     background-color:rgb(244,103,49);
 }
+p {
+    font-family: 'Noto Sans HK', sans-serif;
+}
+header {
+    text-align: center;
+}
+nav {
+    text-align: left;
+}

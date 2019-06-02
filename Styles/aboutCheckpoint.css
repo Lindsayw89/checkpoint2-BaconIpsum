@@ -62,7 +62,12 @@ div {
 img {
     height:2%;
     width: 2%;
-    color; white;
+    color: white;
+}
+main {
+    display: flex;
+    justify-content: center;
+    padding: 8% 0% 3% 0%;
 }
 
 
@@ -110,7 +115,7 @@ h2 {
         "section-3";
 }
 body {
-    background-color: rgb(247,245,246);
+    background-color:rgb(247,245,246)
 }
 
 .logo {
@@ -122,22 +127,21 @@ div {
 }
 
 
-.a-class {
-    display: grid;
-    grid-template-areas: 
-    "home"
-    "articles"
-    "facebook"
-    "insta";
-}
-
 h1 {
-    font-size: 70px;
+    font-size: 65px;
+}
+img {
+    height:8%;
+    width: 8%;
+    color; white;
 }
 h2 {
     font-size:35px;
 }
-
+iframe {
+    width:80%;
+    height: 90%;
+}
 
 
 }

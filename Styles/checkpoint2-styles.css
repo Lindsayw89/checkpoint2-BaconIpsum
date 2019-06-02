@@ -132,7 +132,7 @@ h2 {
         "section-3";
 }
 body {
-    background-color: rgb(247,245,246);
+    background-color:rgb(247,245,246)
 }
 
 .logo {
@@ -148,14 +148,6 @@ div {
     color: black;
 }
 
-
-/*.a-class {
-    display: grid;
-    grid-template-areas: 
-    "about"
-    "facebook"
-    "insta";
-}*/
 
 h1 {
     font-size: 70px;
