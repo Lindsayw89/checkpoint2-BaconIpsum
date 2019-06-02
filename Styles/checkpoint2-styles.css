@@ -14,7 +14,7 @@ header {
     text-align: left;
 }
 h1 {
-    padding: 5%;
+    padding: 10%;
 }
 
 .about {
@@ -52,14 +52,24 @@ div {
     .grid-container {
         display: grid;
         grid-template-areas:
-         "section-1 section-2 section-3";
-    
-    
+         "section-1 section-2 section-3";  
     }
+ 
     div {
-        margin: 2%;
+        margin: 3%;
     }
-
+    a {
+        padding: 0% 3%;
+        font-size: 30px;
+        text-decoration: none;
+    
+    }
+    nav {
+        text-align: right;
+    }
+h1 {
+    font-size: 70px;
+}
 }
 
 @media (max-width: 576px) {
@@ -73,6 +83,15 @@ div {
         "section-1"
         "section-2"
         "section-3";
+}
+
+.a-class {
+    display: grid;
+    grid-template-areas: 
+    "about"
+    "articles"
+    "facebook"
+    "insta";
 }
 
 }
