@@ -71,16 +71,10 @@ div {
 p {
     font-family: 'Noto Sans HK', sans-serif;
 }
-/*.section-1 {
-    background-color: rgb(37, 130, 216);
+.portfolio {
+    float: left;
+    font-size: 20px;
 }
-
-.section-2 {
-    background-color:rgb(228, 147, 26);
-}
-.section-3 {
-    background-color:rgb(130, 207, 207);
-}*/
 footer {
     text-align: center;
 }
@@ -154,10 +148,21 @@ h1 {
 }
 h2 {
     font-size:35px;
+    color: black;
+}
+
+a:visited {
+    color:black;
+}
+a:link {
+    color: black;
 }
 
 a {
     text-decoration: none;
 }
 
+.portfolio {
+    font-size: 15px;
+}
 }
